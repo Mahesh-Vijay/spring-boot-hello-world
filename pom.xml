@@ -7,7 +7,7 @@
 	<groupId>com.testing</groupId>
 	<artifactId>spring-boot-hello-world</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>spring-boot-hello-world</name>
 	<description>Spring Boot Hello World</description>
@@ -163,7 +163,8 @@
 					<dockerDirectory>./</dockerDirectory>
 					<tag>latest</tag>
 					<buildArgs>
-						<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
+						<
+						_FILE>${project.build.finalName}.war</WAR_FILE>
 					</buildArgs>
 				</configuration>
 			</plugin>
